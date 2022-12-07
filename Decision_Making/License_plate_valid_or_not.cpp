@@ -7,14 +7,15 @@ int main()
 	cin>>s;
     if(s.length()==6)
 	{
-    if(s[0]>='A' && s[0]<='Z' && s[1]>='A' && s[1]<='Z' && s[2]>='A' && s[2]<='Z'
-	  && s[3]>='0' && s[3]<='9' && s[4]>='0' && s[4]<='9' && s[5]>='0' && s[5]<='9')
+      if(s[0]>='A' && s[0]<='Z' && s[1]>='A' && s[1]<='Z' && s[2]>='A' && s[2]<='Z'
+	    && s[3]>='0' && s[3]<='9' && s[4]>='0' && s[4]<='9' && s[5]>='0' && s[5]<='9')
 	   {
     		cout<<"Valid for Older style";
 	   }
-	   else{
+	   else
+	   {
 		cout<<"Not valid for either style of license plate";
-	}
+	   }
    }
 	else if(s.length()==7)
 	{
@@ -23,11 +24,13 @@ int main()
 	   {
 		cout<<"Valid for newer style";
 	   }
-	   else{
+	   else
+	   {
 		cout<<"Not valid for either style of license plate";
-	}
+	   }
    }
-	else{
+	else
+	{
 		cout<<"Not valid for either style of license plate";
 	}
 	
