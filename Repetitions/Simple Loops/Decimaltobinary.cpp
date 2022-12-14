@@ -2,15 +2,17 @@
 using namespace std;
 int main()
 {
-	int result[1000],r,q,i=0;
+
+	string result;
+	int q,r;
 	cin>>q;
-	while(q!=0){
-		result[i]=q%2;
-		q=q/2;
-		i++;		
+	while(q>0){
+		r=q%2;
+		result=result+to_string(r);
+		q=q/2;		
 	}
-	for(int j=i-1;j>=0;j--){
-	cout<<result[j];	
+	for(int i=result.length()-1;i>=0;i--){
+		cout<<result[i];
 	}
 	
 }
