@@ -5,9 +5,6 @@ int  a=0,b=0,c=0,d=0;
 	if(s.length()>=8){
 		a=1;
 	}
-	else{
-		return false;
-	}
 	for(int i=0;i<s.length();i++){
 		if(s[i]>='A' && s[i]<='Z'){
 			b=1;
