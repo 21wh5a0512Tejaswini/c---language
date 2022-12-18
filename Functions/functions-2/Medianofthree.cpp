@@ -21,5 +21,4 @@ int main(){
 	int a,b,c,result;
 	cin>>a>>b>>c;
 	cout<<medianOfThree(a,b,c);
-	//cout<<result;
 }
